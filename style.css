@@ -1,0 +1,110 @@
+    h1{
+        color:orange;
+
+    }
+    .rect{
+       background-color: blue; 
+       display: flex;
+       justify-content: space-between;
+    }
+    /*.link{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        background-color: #00eeff;
+    }
+    .link2{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: first baseline;
+        background-color: #AE3269;
+    }*/
+
+    .link{
+        position: relative;
+    }
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    body{
+        background-color: #FC5548; 
+    }
+    a:link{
+        color: cyan;
+    }
+a:visited{
+    color:violet
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 30px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.footer{
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.footer:hover p{
+    opacity: 1;
+}
+.footer:hover img{
+    opacity: 0.33;
+}
+.link2{
+    position: relative;
+}
+.link2 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.link2:hover p{
+    opacity: 1;
+}
+.link2:hover img{
+    opacity: 0.33;
+}
+.link4{
+    position: relative;
+}
+.link4 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.link4:hover p{
+    opacity: 1;
+}
+.link4:hover img{
+    opacity: 0.33;
+}
